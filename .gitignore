@@ -1,0 +1,6 @@
+.git/
+.vscode/
+venv/
+node_modules/
+
+.vim-arsync

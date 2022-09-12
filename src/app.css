@@ -1,0 +1,34 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#wsi {
+  height: 100vh;
+  flex-grow: 1;
+}
+
+#lym {
+  position: absolute;
+  height: 30vh;
+  width: 30vw;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lym-img {
+  height: 100%;
+}
